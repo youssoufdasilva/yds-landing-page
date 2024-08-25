@@ -8,8 +8,10 @@ services:
     volumes:
       - ./app:/my-project/app
       - ./components:/my-project/components
+      - ./data:/my-project/data
       - ./lib:/my-project/lib
       - ./src:/my-project/src
+      - ./content:/my-project/content
     expose:
       - 3000
     environment:
