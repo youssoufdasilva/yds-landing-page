@@ -126,9 +126,8 @@ export const DATA = {
       start: "Jun 2016",
       end: "Aug 2016",
       description: `Psyphertxt is made up of a passionate team developing mobile apps and games committed to a mission of fostering innovation through our varied mobile app products.
-
-- Designed and developed an android based mobile application for online auctions 
-- Marketed a messaging application that the company was building at the 2016 Africa Mobile & ICT Expo`,
+* Designed and developed an android based mobile application for online auctions 
+* Marketed a messaging application that the company was building at the 2016 Africa Mobile & ICT Expo`,
     },
   ],
   education: [

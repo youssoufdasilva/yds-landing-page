@@ -92,7 +92,7 @@ export const ResumeCard = ({
             }}
             className="mt-2 text-xs sm:text-sm"
           >
-            <Markdown className="prose max-w-full text-pretty font-sans text-xs text-muted-foreground dark:prose-invert">
+            <Markdown className="prose max-w-full text-pretty font-sans text-muted-foreground dark:prose-invert">
               {description}
             </Markdown>
             {href && (
