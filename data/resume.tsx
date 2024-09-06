@@ -119,7 +119,7 @@ export const DATA = {
     },
     {
       company: "PsypherTxt",
-      // href: "https://fox-robotics.com/",
+      href: "",
       badges: [],
       location: "Greater Accra Region, Ghana · On-site",
       title: "Software Intern",
