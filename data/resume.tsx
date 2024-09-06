@@ -144,11 +144,11 @@ export const DATA = {
     {
       school: "Ashesi University",
       href: "https://ashesi.edu.gh",
-      degree: "BSc Computer Science",
+      degree: "BSc CS",
       logoUrl: "/ashesi.jpeg",
       start: "2013",
       end: "2017",
-      description: "Bachelor in Computer Science",
+      description: "Bachelor in Computer Science (CS)",
     },
   ],
   projects: [],

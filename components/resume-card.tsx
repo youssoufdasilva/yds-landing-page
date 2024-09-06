@@ -8,7 +8,8 @@ import { motion } from "framer-motion";
 import { ChevronRightIcon, LinkIcon } from "lucide-react";
 import Link from "next/link";
 import React from "react";
-import { Button } from "./ui/button";
+import { Button } from "@/components/ui/button";
+import Markdown from "react-markdown";
 
 interface ResumeCardProps {
   logoUrl: string;
@@ -91,7 +92,9 @@ export const ResumeCard = ({
             }}
             className="mt-2 text-xs sm:text-sm"
           >
-            <span>{description}</span>
+            <Markdown className="prose max-w-full text-pretty font-sans text-xs text-muted-foreground dark:prose-invert">
+              {description}
+            </Markdown>
             {href && (
               <div className="mt-2">
                 <Link href={href} target="_blank" rel="noopener noreferrer">
