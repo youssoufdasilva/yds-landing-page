@@ -78,19 +78,19 @@ export const DATA = {
       start: "Jul 2023",
       end: "Present",
       description: `Key Job Responsibilities:
-- Develop attractive and intuitive dashboards with React, NodeJs, JavaScript, HTML, CSS to build, deploy and scale Enterprise AI software
-- Develop code in python and UNIX scripts to build, deploy and scale Enterprise AI software 
-- Work in backend tech stack involving flask, NGINX, docker, node etc. 
-- Develop AI code to add new features to the Enterprise AI platform
-- Develop unit test, integration test for CI/CD 
-- Write code documentation following software engineering best practices`,
+\n- Develop attractive and intuitive dashboards with React, NodeJs, JavaScript, HTML, CSS to build, deploy and scale Enterprise AI software
+\n- Develop code in python and UNIX scripts to build, deploy and scale Enterprise AI software 
+\n- Work in backend tech stack involving flask, NGINX, docker, node etc. 
+\n- Develop AI code to add new features to the Enterprise AI platform
+\n- Develop unit test, integration test for CI/CD 
+\n- Write code documentation following software engineering best practices`,
     },
     {
       company: "Fox Robotics",
       href: "https://fox-robotics.com/",
       badges: [],
       location: "Surrey, England, United Kingdom · On-site",
-      title: "Software Engineer",
+      title: "Web / Backend Software Developer",
       logoUrl: "/foxrobotics.jpeg",
       start: "Jul 2020",
       end: "Jun 2023",
@@ -100,22 +100,21 @@ export const DATA = {
       company: "Akatuapa Limited (PsypherTxt)",
       href: "https://fox-robotics.com/",
       badges: [],
-      location: "Surrey, England, United Kingdom · On-site",
-      title: "Web / Backend Software Developer",
+      location: "Greater Accra Region, Ghana · On-site",
+      title: "Software Engineer",
       logoUrl: "/akatuapa.jpeg",
       start: "May 2017",
       end: "Aug 2019",
       description: `Worked in a small team of 10 people to create mobile apps and games. Crafted beautiful websites and supported interns within the team.
-
-- Developed a web application (gstickerss.com) using React JS to showcase company products.
-- Created a responsive email template using Foundation Emails for newsletters.
-- Developed a mobile game (Goldbar) using Unity.
-- Built two websites to promote Goldbar using React JS.
-- Designed a web application using Adobe XD for a Beta Testing platform.
-- Directed and edited short informational videos using iMovie to raise awareness for company products.
-- Converted Bonanza, a hard copy card game into a web game.
-- Mentored new starters and interns throughout their employment 
-- Conducted interviews and created interview transcripts for the panel.`,
+\n- Developed a web application (gstickerss.com) using React JS to showcase company products.
+\n- Created a responsive email template using Foundation Emails for newsletters.
+\n- Developed a mobile game (Goldbar) using Unity.
+\n- Built two websites to promote Goldbar using React JS.
+\n- Designed a web application using Adobe XD for a Beta Testing platform.
+\n- Directed and edited short informational videos using iMovie to raise awareness for company products.
+\n- Converted Bonanza, a hard copy card game into a web game.
+\n- Mentored new starters and interns throughout their employment 
+\n- Conducted interviews and created interview transcripts for the panel.`,
     },
     {
       company: "PsypherTxt",
