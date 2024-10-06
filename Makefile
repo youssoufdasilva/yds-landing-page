@@ -25,14 +25,8 @@ logs:
 start_prod:
 	@docker compose -f docker-compose.prod.yml --env-file ./.env.prod up -d --remove-orphans
 
-pull_prod:
-	@docker compose -f docker-compose.prod.yml --env-file ./.env.prod pull
-
 stop_prod:
 	@docker compose -f docker-compose.prod.yml --env-file ./.env.prod stop
-
-build_prod: # soon to be deprecated
-	@docker compose -f docker-compose.prod.yml --env-file ./.env.prod build
 
 logs_prod: 
 	@docker compose -f docker-compose.prod.yml --env-file ./.env.prod logs -f
