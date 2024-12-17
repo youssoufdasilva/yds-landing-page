@@ -3,6 +3,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## WIP
 
 https://www.youtube.com/watch?v=34bRv6cQezo
+https://www.freecodecamp.org/news/how-to-deploy-next-js-app-to-github-pages/
 
 ## Getting Started
 
