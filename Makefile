@@ -30,3 +30,6 @@ stop_prod:
 
 logs_prod: 
 	@docker compose -f docker-compose.prod.yml --env-file ./.env.prod logs -f
+
+build_prod_no_cache:
+	@docker compose -f docker-compose.prod.yml --env-file ./.env.prod build --no-cache
