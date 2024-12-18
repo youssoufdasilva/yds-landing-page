@@ -32,7 +32,7 @@ jobs:
 
       - name: Build with Next.js 🏗️
         run: |
-          NODE_ENV=production NEXT_PUBLIC_ENV=prod npx next build
+          echo "NEXT_PUBLIC_BASE_PATH=/yds-landing-page" >> .env && NODE_ENV=production NEXT_PUBLIC_ENV=prod npx next build
 
       - name: Upload artifact 📡
         uses: actions/upload-pages-artifact@v3

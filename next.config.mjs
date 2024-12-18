@@ -1,8 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: process.env.NODE_ENV === "production" ? "/yds-landing-page" : "",
   output: "export",
-  reactStrictMode: true,
+  // If your GitHub Pages site is served from a subdirectory
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH || "",
+  // Required for GitHub Pages
+  images: {
+    unoptimized: true,
+  },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
