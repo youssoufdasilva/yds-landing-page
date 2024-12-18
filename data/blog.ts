@@ -64,20 +64,8 @@ async function getAllPosts(dir: string) {
   );
 }
 
-export async function getAllBlogPosts() {
-  // If using markdown files in a 'posts' directory
-  const postsDirectory = path.join(process.cwd(), "posts");
-  const filenames = fs.readdirSync(postsDirectory);
-
-  return filenames.map((filename) => ({
-    slug: filename.replace(/\.md$/, ""), // removes the file extension
-  }));
-}
-
-// Add this function to generate all possible blog post paths at build time
 export async function generateStaticParams() {
-  // Replace this with your actual method of getting blog posts
-  const posts = await getAllBlogPosts(); // You'll need to implement this function
+  const posts = await getBlogPosts();
 
   return posts.map((post) => ({
     slug: post.slug,
