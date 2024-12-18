@@ -1,13 +1,13 @@
-/** @type {import('next').NextConfig} */
+/**
+ * @type {import('next').NextConfig}
+ */
 const nextConfig = {
   output: "export",
-  // If your GitHub Pages site is served from a subdirectory
-  basePath: process.env.NEXT_PUBLIC_BASE_PATH || "",
-  // Required for GitHub Pages
   images: {
-    loader: "custom",
-    loaderFile: "./image-loader.js",
+    loader: "akamai",
+    path: "",
   },
+  assetPrefix: "./",
 };
 
-module.exports = nextConfig;
+export default nextConfig;
